@@ -25,6 +25,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 0;
 }
 
 html,
@@ -48,6 +49,7 @@ input,
 button,
 texarea {
   font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
 }
 
 .container {
