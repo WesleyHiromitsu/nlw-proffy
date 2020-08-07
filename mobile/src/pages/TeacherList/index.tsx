@@ -8,6 +8,7 @@ import {
 } from "react-native-gesture-handler";
 import { Feather } from "@expo/vector-icons";
 import AsyncStorage from "@react-native-community/async-storage";
+import { useFocusEffect } from "@react-navigation/native";
 
 import api from "../../services/api";
 
@@ -59,6 +60,12 @@ function TeacherList() {
   function handleToggleFiltersVisible() {
     setIsFiltersVisible(!isFiltersVisible);
   }
+
+  useFocusEffect(
+    React.useCallback(() => {
+      loadFavorites();
+    }, [])
+  );
 
   return (
     <View style={styles.container}>
