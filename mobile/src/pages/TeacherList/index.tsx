@@ -7,6 +7,8 @@ import {
   RectButton,
 } from "react-native-gesture-handler";
 import { Feather } from "@expo/vector-icons";
+import AsyncStorage from "@react-native-community/async-storage";
+
 import api from "../../services/api";
 
 import PageHeader from "../../components/PageHeader";
@@ -22,8 +24,26 @@ function TeacherList() {
   const [time, setTime] = useState("");
 
   const [teachers, setTeachers] = useState([]);
+  const [favorites, setFavorites] = useState<Number[]>([]);
+
+  function loadFavorites() {
+    AsyncStorage.getItem("favorites").then((response) => {
+      if (response) {
+        const favoritedTeachers = JSON.parse(response);
+        const favoritedTeachersIds = favoritedTeachers.map(
+          (teacher: Teacher) => {
+            return teacher.id;
+          }
+        );
+
+        setFavorites(favoritedTeachersIds);
+      }
+    });
+  }
 
   async function handleFiltersSubmit() {
+    loadFavorites();
+
     const response = await api.get("classes", {
       params: {
         subject,
@@ -105,7 +125,11 @@ function TeacherList() {
         }}
       >
         {teachers.map((teacher: Teacher) => (
-          <TeacherItem key={teacher.id} teacher={teacher} />
+          <TeacherItem
+            key={teacher.id}
+            teacher={teacher}
+            favorited={favorites.includes(teacher.id)}
+          />
         ))}
       </ScrollView>
     </View>
