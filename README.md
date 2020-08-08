@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./.github/logo.svg" alt="Proffy" width="280"/>
+   <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
 
 <p align="center">	
@@ -18,5 +18,8 @@
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
-  
+</p>
+
+<p align="center">
+  <img alt="mockup" src=".github/proffy_design.png" width="100%">
 </p>
