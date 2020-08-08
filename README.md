@@ -7,8 +7,9 @@
       <img alt="Wesley Hiromitsu" src="https://img.shields.io/badge/-WesleyHiromitsu-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
 
-<img alt="Wesley Hiromitsu" src="https://img.shields.io/badge/-hiromitsu.dev@gmail.com-8257E5?style=flat-square&logo=Gmail&logoColor=white&link=mailto:hiromitsu.dev@gmail.com)](mailto:hiromitsu.dev@gmail.com
-">
+   <a href="mailto:hiromitsu.dev@gmail.com">
+      <img alt="Wesley Hiromitsu" src="https://img.shields.io/badge/-hiromitsu.dev@gmail.com-8257E5?style=flat-square&logo=Gmail&logoColor=white" />
+   </a>
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/WesleyHiromitsu/nlw-proffy?color=774DD6">
 
