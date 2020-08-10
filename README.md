@@ -20,6 +20,10 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
 </p>
 
+<div align="center">
+   Projeto feito na Next Level Week 2 @Rocketseat
+</div>
+
 <p align="center">
   <img alt="mockup" src=".github/proffy_design.png" width="100%">
 </p>
