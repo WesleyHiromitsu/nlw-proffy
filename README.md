@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="./.github/logo.png" alt="Proffy" width="280"/>
+   <img src=".github/logo.png" alt="Proffy" width="280"/>
 </p>
 
 <p align="center">	
@@ -27,3 +27,7 @@
 <p align="center">
   <img alt="mockup" src=".github/proffy_design.png" width="100%">
 </p>
+
+## 💡 Sobre o Projeto
+
+Criação do Proffy, uma plataforma para conexão entre professores e alunos.
