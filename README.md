@@ -157,4 +157,4 @@ $ npm run start
 
 ## :closed_book: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/WesleyHiromitsu/nlw-proffy/blob/master/LICENSE) para mais detalhes.
