@@ -31,3 +31,15 @@
 ## 💡 Sobre o Projeto
 
 Criação do Proffy, uma plataforma para conexão entre professores e alunos.
+
+## :art: Layout
+
+Você pode duplicar o layout do projeto no Figma, ele está dividido em duas versões:
+
+- <div style="display:flex;align-items:center;">
+      Layout do projeto web <a href="https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate"> <img src="https://img.shields.io/badge/-Figma-rebeccapurple?&logo=Figma&logoColor=white&link" style="margin-left:8px;"/> </a>
+  </div>
+
+- <div style="display:flex;align-items:center;margin-top:12px;">
+      Layout do projeto mobile <a href="https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile/duplicate"> <img src="https://img.shields.io/badge/-Figma-purple?&logo=Figma&logoColor=white&link" style="margin-left:8px;"/> </a>
+  </div>
