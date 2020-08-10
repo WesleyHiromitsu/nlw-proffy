@@ -28,6 +28,13 @@
   <img alt="mockup" src=".github/proffy_design.png" width="100%">
 </p>
 
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar-o-projeto">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
 ## :clipboard: Sobre o Projeto
 
 Criação do Proffy, uma plataforma para conexão entre professores e alunos.
@@ -56,7 +63,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## :rocket: Como rodar o projeto
 
-Podemos considerar este projeto como sendo divido em três partes:
+Este projeto foi dividido em três partes:
 
 1. Back End (pasta [backend](https://github.com/WesleyHiromitsu/nlw-proffy/tree/master/backend))
 2. Front End (pasta [web](https://github.com/WesleyHiromitsu/nlw-proffy/tree/master/web))
@@ -87,7 +94,7 @@ $ cd nlw-proffy
 ## Rodando o back end (servidor)
 
 ```bash
-# Vá para a pasta da aplicação Front End
+# Vá para a pasta da aplicação Back-End
 $ cd backend
 
 # Instale as dependências
@@ -111,7 +118,7 @@ $ npm run start
 ### Rodando a aplicação web (Front End)
 
 ```bash
-# Vá para a pasta da aplicação Front End
+# Vá para a pasta da aplicação Front-End
 $ cd web
 
 # Instale as dependências
