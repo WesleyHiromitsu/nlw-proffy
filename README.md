@@ -33,6 +33,7 @@
   <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-como-rodar-o-projeto">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed-book-licença">Licença</a>
 </p>
 
 ## :clipboard: Sobre o Projeto
@@ -153,3 +154,7 @@ $ npm run start
 # Instale o aplicativo Expo no seu celular
 # Escaneie o QrCode para abrir a aplicação
 ```
+
+## :closed_book: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
